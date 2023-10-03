@@ -8,7 +8,7 @@ on:
   workflow_dispatch: # to manually run this workflow
 env:
   DATABASE: ${{ secrets.DB_DATABASE }}
-  USERNAME: ${{ secrets.DB_USERNAME }}
+  USERNAME: ${{ secretsContext access migh.DB_USERNAME }}
   PASSWORD: ${{ secrets.DB_PASSWORD }}
   REPO_PATH: ${{ secrets.REPO_PATH }}
   INIT_REPO: ${{ secrets.INIT_REPO }}
