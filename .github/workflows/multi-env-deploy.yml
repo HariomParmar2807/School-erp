@@ -2,7 +2,7 @@ name: Deploy application in multi-env
 
 on:
   push:
-    branches: [ "master", "develop", "multi-env-testing" ]
+    branches: [ "master", "develop" ]
   pull_request:
     branches: [ "master" ]
   workflow_dispatch: # Manually run this workflow
